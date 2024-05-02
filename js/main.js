@@ -1,6 +1,6 @@
 const chooseColor = document.querySelectorAll('.choose__color-btn');
 const contentItem = document.querySelectorAll('.content-item');
-
+console.log(chooseColor)
 
 chooseColor.forEach(function(element){
     element.addEventListener('click', open)

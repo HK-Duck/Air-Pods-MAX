@@ -30,6 +30,7 @@ body{
     font-size: 16px;
     font-weight: 500;
     line-height: 1.2;
+    margin: 0;
 }
 
 .container{
@@ -402,7 +403,7 @@ body{
     }
  }
 
-@media (max-width 568px){
+@media (max-width: 568px){
     .choose-color__text{
         margin-bottom: 40px;
     }
@@ -438,7 +439,7 @@ body{
     }
     }
     
-@media (max-width 414px){
+@media (max-width: 414px){
     .main__title,
     .choose-color__title{
        font-size: 28px; 
@@ -451,8 +452,12 @@ body{
     }
 }
  
-@media (max-width 404px){
+@media (max-width: 404px){
     .title{
         font-size: 50px;
+    }
+    .menu__list{
+        gap: 20px;
+        padding-left: 0;
     }
 }
