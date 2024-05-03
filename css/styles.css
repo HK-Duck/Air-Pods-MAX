@@ -327,6 +327,12 @@ body{
    flex-wrap: wrap;
 }
 
+@media (max-width: 2560px) {
+    .audio{
+        /* background-size: 2560px 1790px; */
+    }
+}
+
 @media (max-width: 1469px){
     .header__content-images img{
         max-width: 100%;
@@ -338,6 +344,10 @@ body{
     font-size: 180px;
     transform: translate(129px, 29px);
    }
+}
+
+@media (max-width: 1440px) {
+
 }
 
 @media (max-width: 1349px){
