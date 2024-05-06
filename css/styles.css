@@ -229,7 +229,8 @@ body{
 .energy__num{
     font-size: 210px;
     font-weight: 700;
-    margin-bottom: 40px; 
+    margin-bottom: 40px;
+    margin-top: -1px; 
 }
 
 .energy__text{
@@ -327,12 +328,6 @@ body{
    flex-wrap: wrap;
 }
 
-@media (max-width: 2560px) {
-    .audio{
-        /* background-size: 2560px 1790px; */
-    }
-}
-
 @media (max-width: 1469px){
     .header__content-images img{
         max-width: 100%;
@@ -346,9 +341,6 @@ body{
    }
 }
 
-@media (max-width: 1440px) {
-
-}
 
 @media (max-width: 1349px){
     .title{
